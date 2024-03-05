@@ -1,5 +1,5 @@
 
-## Quick Started!
+## Quick Started!(不用管)
 
 We provide pre-trained models and processed datasets of GeneFace in [this release](https://github.com/yerfor/GeneFace/releases/tag/v1.1.0) to enable a quick start. In the following, we show how to infer the pre-trained models in 4 steps. If you want to train GeneFace on your own target person video, please reach to the following sections (`Prepare Environments`, `Prepare Datasets`, and `Train Models`).
 
@@ -37,7 +37,7 @@ bash scripts/infer_lm3d_radnerf.sh
 
 You can find a output video named `infer_out/May/pred_video/zozo.mp4`.
 
-## Prepare Environments
+## Prepare Environments（配环境第一步）
 
 Please follow the steps in `docs/prepare_env`.
 
