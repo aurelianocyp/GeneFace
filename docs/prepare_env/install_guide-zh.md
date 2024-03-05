@@ -4,7 +4,7 @@
 
 # 1. 安装 CUDA
 
-我们使用来自[torch-ngp](https://github.com/ashawkey/torch-ngp)的CUDA扩展，您可能需要从[Nvidia官方页面](https://developer.nvidia.com/cuda-toolkit)手动安装CUDA。我们建议安装CUDA `11.3`(在各种类型的gpu中验证)，但其他CUDA版本(如 `10.2`)也可以很好地工作。确保你的cuda路径(通常是 `/usr/local/cuda`)指向已安装的 `/usr/local/cuda-11.3`
+我们建议安装CUDA `11.3`(在各种类型的gpu中验证)，但其他CUDA版本(如 `10.2`)也可以很好地工作
 
 # 2. 安装Python库
 
