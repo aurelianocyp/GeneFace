@@ -18,8 +18,10 @@ conda install -c fvcore -c iopath -c conda-forge fvcore iopath -y
 conda install -c bottler nvidiacub -y
 conda install pytorch3d -c pytorch3d -y # 0.7.2 recommended
 # Install other dependencies, including tensorflow-gpu=2.x
+sudo apt-get update 
 sudo apt-get install libasound2-dev portaudio19-dev # dependency for pyaudio
-pip install -r docs/prepare_env/requirements.txt 
+git clone https://github.com/aurelianocyp/GeneFace.git
+pip install -r docs/prepare_env/requirements.txt
 conda install ffmpeg # we need to install ffmpeg from anaconda to include the x264 encoder
 
 # Build customized cuda extensions from torch-ngp
