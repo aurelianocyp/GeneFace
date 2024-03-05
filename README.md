@@ -55,22 +55,4 @@ Apart from the `May.mp4` provided in this repo, we also provide 8 target person 
 You can also record your own video and train a unique GeneFace model for yourself!
 
 
-## Citation
 
-```
-@article{ye2023geneface,
-  title={GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis},
-  author={Ye, Zhenhui and Jiang, Ziyue and Ren, Yi and Liu, Jinglin and He, Jinzheng and Zhao, Zhou},
-  journal={arXiv preprint arXiv:2301.13430},
-  year={2023}
-}
-```
-
-## Acknowledgements
-
-**Our codes are based on the following repos:**
-
-* [NATSpeech](https://github.com/NATSpeech/NATSpeech) (For the code template)
-* [AD-NeRF](https://github.com/YudongGuo/AD-NeRF) (For NeRF-related data preprocessing and vanilla NeRF implementation)
-* [RAD-NeRF](https://github.com/ashawkey/RAD-NeRF) (For RAD-NeRF implementation)
-* [Deep3DFaceRecon_pytorch](https://github.com/sicxu/Deep3DFaceRecon_pytorch) (For 3DMM parameters extraction)
