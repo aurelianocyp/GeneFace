@@ -21,6 +21,7 @@ conda install pytorch3d -c pytorch3d -y # 0.7.2 recommended
 sudo apt-get update 
 sudo apt-get install libasound2-dev portaudio19-dev # dependency for pyaudio
 git clone https://github.com/aurelianocyp/GeneFace.git
+cd Geneface
 pip install -r docs/prepare_env/requirements.txt
 conda install ffmpeg # we need to install ffmpeg from anaconda to include the x264 encoder
 
