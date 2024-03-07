@@ -44,6 +44,10 @@ Please follow the steps in `docs/prepare_env`.
 ## Prepare Datasets
 Please follow the steps in `docs/process_data`.
 
+有两个，一个是处理lrs3的md一个是处理目标人的md，两个都需要进行配置环境，因为虽然SyncNet与Audio2Motion部分可以使用训练好的通用模型，但是PostNet与RAD-NeRF需要自行训练，训练的时候既需要自己的视频又需要lrs数据集
+
+lrs数据集可以自行下载处理，也可以使用它处理好的数据集
+
 ## Train Models
 
 Please follow the steps in `docs/train_models`.
