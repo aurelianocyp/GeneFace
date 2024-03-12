@@ -23,6 +23,8 @@ CUDA_VISIBLE_DEVICES=0 python tasks/run.py --config=egs/datasets/lrs3/lm3d_syncn
 
 注意SyncNet模型适用于所有说话人视频，所以你只需要训练它一次！
 
+在auto-tmp目录下运行：
+`unzip lrs3.zip`
 `cp -r lrs3/syncnet/ GeneFace/checkpoints/lrs3/`
 
 ## 步骤2. 训练Audio2Motion模型
