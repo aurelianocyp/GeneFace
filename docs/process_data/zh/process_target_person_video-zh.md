@@ -12,7 +12,7 @@
 conda activate geneface
 export PYTHONPATH=./
 export VIDEO_ID=May
-sudo
+sudo chmod -R 777  data_gen/nerf
 CUDA_VISIBLE_DEVICES=0 data_gen/nerf/process_data.sh $VIDEO_ID
 ```
 
