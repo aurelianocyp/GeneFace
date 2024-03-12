@@ -6,7 +6,10 @@
 
 ## 提取所有所需的特征并打包。
 先在阿里云盘中下载wav2vec2-large-xlsr-53-esperanto.zip，将其放在geneface/cpierse中，然后`unzip ***.zip`. 如果不做这一步，会导致process data中的task 2报错
+
 需要下载hubert-large-ls960-ft，将其放在geneface/Facebook中，然后`unzip ***.zip`,如果不做这一步，会导致extract_hubert_mel_f0.py报错。
+
+还需将Geneface/egs/datasets/videos文件夹下创建相应文件夹，文件夹名字为 VIDEO_ID如Obama_ours,文件夹下的内容可以将May中的内容全部复制过去，但是需要将每个yaml文件内的May换为相应的视频id。否则binarizer.py那一步会报错
 
 运行如下命令行：
 
