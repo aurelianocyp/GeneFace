@@ -61,3 +61,6 @@ python data_gen/process_lrs3/binarizer.py
             val.data
             val.idx
 ```
+关于缺少train.idx与val.idx：少了idx文件，这是因为我们更新了indexed_ds 这个类，将idx也保存在了.data里面
+
+关于缺少stats.npy：Hi, thanks for pointing out! load(stats) is a history code and we have commented it in the lastest commit.
