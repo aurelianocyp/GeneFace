@@ -23,6 +23,8 @@ CUDA_VISIBLE_DEVICES=0 python tasks/run.py --config=egs/datasets/lrs3/lm3d_syncn
 
 注意SyncNet模型适用于所有说话人视频，所以你只需要训练它一次！
 
+`cp -r lrs3/syncnet/ GeneFace/checkpoints/lrs3/`
+
 ## 步骤2. 训练Audio2Motion模型
 
 注意：我们在[这个链接](https://github.com/yerfor/GeneFace/releases/tag/v1.1.0)的 `lrs3.zip`文件中提供了预训练好的audio2motion模型,你可以将其下载并提取出其中的 `lm3d_vae_sync`文件夹，并将它放到 `checkpoints/lrs3/lm3d_vae_sync`路径中。
@@ -36,6 +38,8 @@ CUDA_VISIBLE_DEVICES=0 python tasks/run.py --config=egs/datasets/videos/lrs3/lm3
 ```
 
 注意名为 `lm3d_vae_sync`的audio2motion模型适用于所有说话人视频，所以你只需要训练它一次！
+
+`cp -r lrs3/lm3d_vae_sync/ GeneFace/checkpoints/lrs3/`
 
 ## 步骤3. 训练PostNet模型
 
