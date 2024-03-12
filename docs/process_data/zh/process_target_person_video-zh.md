@@ -5,7 +5,7 @@
 我们在  `data/raw/videos/May.mp4` 路径下提供了一个示例视频
 
 ## 提取所有所需的特征并打包。
-
+先在阿里云盘中下载wav2vec2-large-xlsr-53-esperanto.zip，将其放在geneface/cpierse中，然后`unzip ***.zip`. 如果不做这一步，会导致process data中的task 2报错
 运行如下命令行：
 
 ```
