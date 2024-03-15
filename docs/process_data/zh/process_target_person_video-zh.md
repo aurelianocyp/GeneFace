@@ -11,6 +11,8 @@
 
 还需将Geneface/egs/datasets/videos文件夹下创建相应文件夹，文件夹名字为 VIDEO_ID如Obama_ours,文件夹下的内容可以将May中的内容全部复制过去，但是需要将每个yaml文件内的May换为相应的视频id。否则binarizer.py那一步会报错
 
+如果处理某个视频时候出现RuntimeError: The expanded size of the tensor (50) must match the existing size (55) at non-singleton dimension 0. Target sizes: [50, 44]. Tensor sizes: [55, 44]，先确定视频是不是512*512和25fps的，如果没问题，在万兴喵影中减掉一小点视频，导出后再处理，也许就会好了。
+
 运行如下命令行：
 
 ```
